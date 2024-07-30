@@ -1,0 +1,20 @@
+# Ignore node_modules and build directories
+node_modules
+dist
+build
+
+# Ignore compiled TypeScript declaration files
+*.d.ts
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore log and temporary files
+*.log
+*.tmp

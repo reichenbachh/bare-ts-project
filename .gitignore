@@ -1,0 +1,71 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore compiled TypeScript declaration files
+*.d.ts
+
+# Ignore log files and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+
+# Ignore package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore local configurations and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore ESLint cache and other linting caches
+.eslintcache
+.cache/
+
+# Ignore coverage reports from test coverage tools
+coverage/
+.nyc_output/
+
+# Ignore TypeScript cache files
+*.tsbuildinfo
+
+# Ignore temporary files created by the OS or text editors
+*.swp
+*.swo
+*.swn
+*.swn
+*.bak
+
+# Ignore miscellaneous binary files
+*.out
+*.exe
+
+# Ignore Jest coverage directory if Jest is used
+jest/
+
+# Ignore specific config backups
+*.bak
+*.old
+*.orig
+*.rej
+
+# Ignore any other unnecessary files or directories
+.tmp/
